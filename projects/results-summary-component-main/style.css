@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Hanken+Grotesk:400,500,600,700');
+
+:root {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: 18px;
+
+  /* Primary */
+  --LightRed: hsl(0, 100%, 67%);
+  --OrangeyYellow: hsl(39, 100%, 56%);
+  --GreenTeal: hsl(166, 100%, 37%);
+  --CobaltBlue: hsl(234, 85%, 45%);
+
+  /* Gradients */
+  --LightSlateBlueBackground: hsl(252, 100%, 67%);
+  --LightRoyalBlueBackground: hsl(241, 81%, 54%);
+  --VioletBlueCircle: hsla(256, 72%, 46%, 1);
+  --PersianBlueCircle: hsla(241, 72%, 46%, 0);
+
+  /* Neutral */
+  --White: hsl(0, 0%, 100%);
+  --PaleBlue: hsl(221, 100%, 96%);
+  --LightLavender: hsl(241, 100%, 89%);
+  --DarkGrayBlue: hsl(224, 30%, 27%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  min-width: 320px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: auto;
+  min-width: 320px;
+  max-width: 640px;
+  box-shadow: 5px 5px 10px 10px hsla(252, 100%, 67%, 4%);
+  background-color: var(--White);
+  border-radius: 25px;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  background: linear-gradient(to right bottom,
+      var(--LightSlateBlueBackground),
+      var(--LightRoyalBlueBackground));
+  width: 50%;
+  border-radius: 25px;
+  padding: 30px;
+}
+
+.result h1 {
+  color: var(--LightLavender);
+  /* font-size: 3rem; */
+  font-weight: 700;
+}
+
+.result__value {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  font-weight: 700;
+  color: white;
+
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: linear-gradient(to right bottom,
+      var(--VioletBlueCircle),
+      var(--PersianBlueCircle));
+}
+
+.result__value span {
+  font-size: 1rem;
+  color: var(--LightLavender);
+}
+
+.result__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-weight: 700;
+}
+
+.result__description h2 {
+  font-size: 1.5rem;
+  color: var(--White);
+}
+
+.result__description p {
+  font-size: 1rem;
+  color: var(--LightLavender);
+  text-align: center;
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  gap: 30px;
+  background-color: var(--White);
+  width: 50%;
+  border-radius: 25px;
+  padding: 30px;
+}
+
+.summary h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--DarkGrayBlue);
+  text-align: start;
+  width: 100%;
+}
+
+.summary ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style: none;
+}
+
+.summary ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  color: var(--DarkGrayBlue);
+  padding: 15px 15px;
+  border-radius: 8px;
+}
+
+.summary ul li div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.summary ul li:nth-child(1) {
+  background-color: hsla(0, 100%, 67%, 0.1);
+}
+
+.summary ul li:nth-child(2) {
+  background-color: hsla(39, 100%, 56%, 0.1);
+}
+
+.summary ul li:nth-child(3) {
+  background-color: hsla(166, 100%, 37%, 0.1);
+}
+
+.summary ul li:nth-child(4) {
+  background-color: hsla(234, 85%, 45%, 0.1);
+}
+
+.summary ul li:nth-child(1) h3 {
+  color: var(--LightRed);
+}
+
+.summary ul li:nth-child(2) h3 {
+  color: var(--OrangeyYellow);
+}
+
+.summary ul li:nth-child(3) h3 {
+  color: var(--GreenTeal);
+}
+
+.summary ul li:nth-child(4) h3 {
+  color: var(--DarkGrayBlue);
+}
+
+.summary button {
+  background-color: var(--DarkGrayBlue);
+  color: var(--White);
+  border: none;
+  padding: 15px 0;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.summary button:hover {
+  background-color: var(--CobaltBlue);
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    height: 100vh;
+    border-radius: 0;
+    max-width: 100%;
+  }
+
+  .result {
+    width: 100%;
+    border-radius: 0 0 25px 25px;
+  }
+
+  .summary {
+    width: 100%;
+    border-radius: 0;
+  }
+}
