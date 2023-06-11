@@ -9,7 +9,7 @@ Este repositorio contiene mi solución a varios desafíos de desarrollo frontend
 Aquí está la lista de desafíos de Frontend Mentor que he desarrollado:
 
 1. [Results summary component](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0)
-   - [Vista previa](https://example.com)
+   - [Vista previa](https://clever-otter-0fad78.netlify.app/)
    - [Repositorio](projects/results-summary-component-main)
 
 Ten en cuenta que las vistas previas y los repositorios son ficticios y deben reemplazarse con tus propias soluciones y enlaces.
