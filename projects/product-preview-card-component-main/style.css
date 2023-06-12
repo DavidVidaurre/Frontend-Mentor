@@ -1,0 +1,148 @@
+/* Import Monserrat font with 500 & 700 weight */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,700');
+@import url('https://fonts.googleapis.com/css?family=Fraunces:500,700');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Primary */
+  --DarkCyan: hsl(158, 36%, 37%);
+  --Cream: hsl(30, 38%, 92%);
+
+  /* Neutral */
+  --VeryDarkBlue: hsl(212, 21%, 14%);
+  --DarkGrayishBlue: hsl(228, 12%, 48%);
+  --White: hsl(0, 0%, 100%);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  min-width: 375px;
+  background-color: var(--Cream);
+}
+
+.product-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 95%;
+  max-width: 640px;
+  height: auto;
+  background-color: var(--White);
+  border-radius: 15px;
+}
+
+/* .product-card__image {
+  width: 50%;
+}
+
+.product-card__image picture {
+  width: 100%;
+  height: 100%;
+} */
+
+.product-card__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px 0 0 15px;
+}
+
+.product-card__information {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 40px;
+}
+
+.product-card__information--perfume {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 5px;
+  font-size: 1.4rem;
+  color: var(--DarkGrayishBlue);
+}
+
+.product-card__information h1 {
+  font-family: 'Fraunces', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 35px;
+  color: var(--VeryDarkBlue);
+}
+
+.product-card__information--description {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--DarkGrayishBlue);
+  line-height: 25px;
+}
+
+.product-card__information--price {
+  font-family: 'Fraunces', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  color: var(--DarkCyan);
+  /* line-height: 35px; */
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+}
+
+.product-card__information--price span {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--DarkGrayishBlue);
+  text-decoration: line-through;
+}
+
+.product-card__information--button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: var(--White);
+  background-color: var(--DarkCyan);
+  padding: 15px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.product-card__information--button:hover {
+  background-color: hsl(159, 35%, 19%);
+}
+
+@media screen and (max-width: 480px) {
+  .product-card {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    height: 95vh;
+    margin: 0 auto;
+  }
+
+  .product-card__image img {
+    border-radius: 15px 15px 0 0;
+    max-height: 250px;
+  }
+
+  .product-card__information {
+    padding: 20px;
+  }
+}

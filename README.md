@@ -12,7 +12,9 @@ Aquí está la lista de desafíos de Frontend Mentor que he desarrollado:
    - [Vista previa](https://clever-otter-0fad78.netlify.app/)
    - [Repositorio](projects/results-summary-component-main)
 
-Ten en cuenta que las vistas previas y los repositorios son ficticios y deben reemplazarse con tus propias soluciones y enlaces.
+2. [Product Preview Card Component](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
+   - [Vista previa](https://64866208c8f2a66daa2a16c5--guileless-griffin-b1caab.netlify.app/)
+   - [Repositorio](projects/product-preview-card-component-main)
 
 ## ¿Cómo usar este repositorio?
 
