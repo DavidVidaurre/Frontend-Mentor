@@ -16,6 +16,10 @@ Aquí está la lista de desafíos de Frontend Mentor que he desarrollado:
    - [Vista previa](https://64866208c8f2a66daa2a16c5--guileless-griffin-b1caab.netlify.app/)
    - [Repositorio](projects/product-preview-card-component-main)
 
+3. [Interactive rating component](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI/hub)
+   - [Vista previa](https://6488d9b912e09b26c0d5567f--moonlit-salmiakki-87695f.netlify.app/)
+   - [Repositorio](projects/interactive-rating-component-main)
+
 ## ¿Cómo usar este repositorio?
 
 Si deseas explorar mis soluciones a los desafíos de Frontend Mentor, puedes clonar este repositorio en tu máquina local utilizando el siguiente comando:

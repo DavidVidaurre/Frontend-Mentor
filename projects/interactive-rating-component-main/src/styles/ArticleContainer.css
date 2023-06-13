@@ -1,0 +1,9 @@
+.article-container {
+  width: 95%;
+  max-width: 420px;
+  padding: 30px;
+  /* background-color: var(--DarkBlue); */
+  background-image: linear-gradient(to bottom, hsl(212, 18%, 14%), hsl(220, 16%, 11%));
+  border-radius: 20px;
+  box-shadow: 0 0 1em #00000033;
+}

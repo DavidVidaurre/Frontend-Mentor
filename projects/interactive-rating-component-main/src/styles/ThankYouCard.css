@@ -1,0 +1,41 @@
+.thank-you-card__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+
+.thank-you-card__img {
+  width: auto;
+  height: auto;
+}
+
+.thank-you-card__rater-selected {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px;
+  background-color: var(--LightDarkBlue);
+  border-radius: 25px;
+  color: var(--Orange);
+  font-size: .9rem;
+}
+
+.thank-you-card__information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.thank-you-card__title {
+  color: var(--White);
+  font-size: 1.8rem;
+}
+
+.thank-you-card__text {
+  color: var(--MediumGrey);
+  text-align: center;
+}

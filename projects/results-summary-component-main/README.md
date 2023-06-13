@@ -29,6 +29,8 @@ Users should be able to:
 
 - Solution URL: [Here](https://clever-otter-0fad78.netlify.app/)
 
+## My process
+
 ### Built with
 
 - Semantic HTML5 markup
