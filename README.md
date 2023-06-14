@@ -10,23 +10,23 @@ Aquí está la lista de desafíos de Frontend Mentor que he desarrollado:
 
 1. [Results summary component](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0)
    - [Vista previa](https://clever-otter-0fad78.netlify.app/)
-   - [Repositorio](projects/results-summary-component-main)
+   - [Repositorio](projects/1.results-summary-component-main)
 
 2. [Product Preview Card Component](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
    - [Vista previa](https://64866208c8f2a66daa2a16c5--guileless-griffin-b1caab.netlify.app/)
-   - [Repositorio](projects/product-preview-card-component-main)
+   - [Repositorio](projects/2.product-preview-card-component-main)
 
 3. [Interactive Rating Component](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI)
    - [Vista previa](https://6488d9b912e09b26c0d5567f--moonlit-salmiakki-87695f.netlify.app/)
-   - [Repositorio](projects/interactive-rating-component-main)
+   - [Repositorio](projects/3.interactive-rating-component-main)
 
 4. [QR Code Component](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
    - [Vista previa](https://6488eb7be95347307d40d683--sage-bavarois-ff3d1d.netlify.app/)
-   - [Repositorio](projects/qr-code-component-main)
+   - [Repositorio](projects/4.qr-code-component-main)
 
 5. [NFT Preview Card Component](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)
    - [Vista previa](https://648936543b80f45686a59aa9--kaleidoscopic-duckanoo-6d6e50.netlify.app/)
-   - [Repositorio](projects/nft-preview-card-component-main)
+   - [Repositorio](projects/5.nft-preview-card-component-main)
 
 ## ¿Cómo usar este repositorio?
 
