@@ -16,13 +16,17 @@ Aquí está la lista de desafíos de Frontend Mentor que he desarrollado:
    - [Vista previa](https://64866208c8f2a66daa2a16c5--guileless-griffin-b1caab.netlify.app/)
    - [Repositorio](projects/product-preview-card-component-main)
 
-3. [Interactive Rating Component](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI/hub)
+3. [Interactive Rating Component](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI)
    - [Vista previa](https://6488d9b912e09b26c0d5567f--moonlit-salmiakki-87695f.netlify.app/)
    - [Repositorio](projects/interactive-rating-component-main)
 
-4. [QR Code Component](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H/hub)
+4. [QR Code Component](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
    - [Vista previa](https://6488eb7be95347307d40d683--sage-bavarois-ff3d1d.netlify.app/)
    - [Repositorio](projects/qr-code-component-main)
+
+5. [NFT Preview Card Component](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)
+   - [Vista previa](https://648936543b80f45686a59aa9--kaleidoscopic-duckanoo-6d6e50.netlify.app/)
+   - [Repositorio](projects/nft-preview-card-component-main)
 
 ## ¿Cómo usar este repositorio?
 
