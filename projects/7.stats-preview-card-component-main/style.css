@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400&display=swap");
+
+:root {
+  /* ### Primary */
+  --VeryDarkBlue: hsl(233, 47%, 7%);
+  --DarkDesaturatedBlue: hsl(244, 38%, 16%);
+  --SoftViolet: hsl(277, 64%, 61%);
+
+  /* ### Neutral */
+  --White: hsl(0, 0%, 100%);
+  --SlightlyTransparentWhite: hsla(0, 0%, 100%, 0.75);
+  --SlightlyTransparentWhiteStat: hsla(0, 0%, 100%, 0.6);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-width: 375px;
+  min-height: 100vh;
+  background-color: var(--VeryDarkBlue);
+  padding: 20px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: var(--DarkDesaturatedBlue);
+  max-width: 900px;
+  min-height: 380px;
+  border-radius: 10px;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 50px 60px;
+}
+
+.card__header {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--White);
+}
+
+.card__title strong {
+  color: var(--SoftViolet);
+}
+
+.card__text {
+  font-size: .8rem;
+  color: var(--SlightlyTransparentWhiteStat);
+  line-height: 1.3rem;
+}
+
+.card__stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  margin-top: auto;
+}
+
+.card__stats-title {
+  color: var(--White);
+  font-size: 1.4rem
+}
+
+.card__stats-text {
+  color: var(--SlightlyTransparentWhiteStat);
+  font-size: .7rem;
+  letter-spacing: 1px;
+}
+
+.card__image {
+  width: 100%;
+  height: 100%;
+  background-color: var(--SoftViolet);
+  border-radius: 0 10px 10px 0;
+}
+
+.card__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: .75;
+  mix-blend-mode: multiply;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    height: auto;
+  }
+
+  .card__content {
+    padding: 50px 30px;
+  }
+
+  .card__header,
+  .card__text {
+    text-align: center;
+  }
+
+  .card__text {
+    font-size: 1rem;
+  }
+
+  .card__stats {
+    flex-direction: column;
+  }
+
+  .card__stats-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card__image {
+    order: -1;
+    border-radius: 10px 10px 0 0;
+  }
+}
