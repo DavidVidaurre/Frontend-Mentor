@@ -28,6 +28,10 @@ Aquí está la lista de desafíos de Frontend Mentor que he desarrollado:
    - [Vista previa](https://648936543b80f45686a59aa9--kaleidoscopic-duckanoo-6d6e50.netlify.app/)
    - [Repositorio](projects/5.nft-preview-card-component-main)
 
+6. [Order Summary Component](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
+   - [Vista previa](https://648bc5c08b3186182d8e910c--fancy-donut-3d1630.netlify.app/)
+   - [Repositorio](projects/6.order-summary-component-main)
+
 ## ¿Cómo usar este repositorio?
 
 Si deseas explorar mis soluciones a los desafíos de Frontend Mentor, puedes clonar este repositorio en tu máquina local utilizando el siguiente comando:
