@@ -36,6 +36,10 @@ Aquí está la lista de desafíos de Frontend Mentor que he desarrollado:
    - [Vista previa](https://648cba8c3722940b77c6376f--sparkling-conkies-3f86fb.netlify.app/)
    - [Repositorio](projects/7.stats-preview-card-component-main)
 
+8. [3 Column Preview Card Component](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-)
+   - [Vista previa](https://648d2e6172e88045b26e024d--frolicking-moxie-262381.netlify.app/)
+   - [Repositorio](projects/8.3-column-preview-card-component-main)
+
 ## ¿Cómo usar este repositorio?
 
 Si deseas explorar mis soluciones a los desafíos de Frontend Mentor, puedes clonar este repositorio en tu máquina local utilizando el siguiente comando:
